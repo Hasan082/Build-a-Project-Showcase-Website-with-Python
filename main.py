@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 
 st.set_page_config(
     layout="wide",
@@ -27,3 +28,19 @@ with colo2:
     """
     st.info(content)
 
+colo3, colo4 = st.columns(2)
+
+df = pd.read_csv("data.csv", sep=";")
+
+with colo3:
+    for index, row in df[:10].iterrows():
+        st.subheader(row["title"])
+        st.write(row["description"])
+        st.image("images/" + row["image"])
+
+
+with colo4:
+    for index, row in df[10:].iterrows():
+        st.subheader(row["title"])
+        st.write(row["description"])
+        st.image("images/" + row["image"])
