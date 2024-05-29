@@ -46,3 +46,5 @@ with colo4:
         st.write(row["description"])
         st.image("images/" + row["image"])
         st.write("[Source code]({})".format(row["url"]))
+
+# https://gale.udemy.com/course/the-python-mega-course/learn/lecture/34604156#overview
