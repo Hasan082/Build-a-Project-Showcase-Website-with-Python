@@ -37,6 +37,7 @@ with colo3:
         st.subheader(row["title"])
         st.write(row["description"])
         st.image("images/" + row["image"])
+        st.write("[Source code]({})".format(row["url"]))
 
 
 with colo4:
@@ -44,3 +45,4 @@ with colo4:
         st.subheader(row["title"])
         st.write(row["description"])
         st.image("images/" + row["image"])
+        st.write("[Source code]({})".format(row["url"]))
