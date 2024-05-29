@@ -8,7 +8,7 @@ st.set_page_config(
 col1, colo2 = st.columns(2)
 
 with col1:
-    st.image("images/hasan.png")
+    st.image("images/Hasan32.jpg")
 
 with colo2:
     st.title("Md Hasanuzzaman")
