@@ -2,7 +2,16 @@ import smtplib, ssl
 from dotenv import load_dotenv
 import os
 # Load .env
-load_dotenv()
+if os.getenv("GMAIL_PASSWORD") is None:
+    load_dotenv()
+
+def get_password():
+    # Check if running on GitHub Actions
+    if os.getenv("GITHUB_ACTIONS") == "true":
+        return os.getenv("GMAIL_PASSWORD")
+    else:
+        # Return password from .env file
+        return os.getenv("GMAIL_PASSWORD_LOCAL")
 
 def send_email(message):
     host = "smtp.gmail.com"
