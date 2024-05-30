@@ -10,12 +10,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
         with:
           ref: ${{ github.ref }}
           
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: '3.11.8'  
 
@@ -25,7 +25,5 @@ jobs:
           pip install -r requirements.txt
 
       - name: Send email
-        env:
-          GMAIL_PASSWORD: ${{ secrets.GMAIL_PASSWORD }}
         run: |
           python pages/Contact.py
