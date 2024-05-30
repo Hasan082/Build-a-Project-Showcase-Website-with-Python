@@ -26,4 +26,4 @@ jobs:
         env:
           GMAIL_PASSWORD: ${{ secrets.GMAIL_PASSWORD }}
         run: |
-          python Contact.py
+          python pages/Contact.py
