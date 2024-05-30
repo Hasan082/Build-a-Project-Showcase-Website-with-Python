@@ -19,6 +19,6 @@ From: {user_email}
     if button:
         if user_email and raw_message:
             send_email(message)
-            st.info("We received your email! I will contact you as soon as possible.")
+            st.info("I received your email! I will contact you as soon as possible.")
         else:
             st.error("Please provide both an email address and a message.")
