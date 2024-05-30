@@ -5,14 +5,16 @@ st.set_page_config(
     layout="wide",
 )
 
+st.header("I am Md Hasanuzzaman")
+st.subheader("Software Engineer")
+st.write("")
+
 col1, colo2 = st.columns(2)
 
 with col1:
     st.image("images/Hasan32.jpg")
 
 with colo2:
-    st.title("Md Hasanuzzaman")
-    st.subheader("Software Engineer")
     content = """
     Hi, I am Md. Hasanuzzaman. I am a dedicated and passionate software engineer with a strong foundation in various programming languages and software development practices. I completed my Diploma in Software Engineering from Daffodil International Professional Training Institute (DIPTI), where I gained a robust technical base and practical experience in building software applications.
 
