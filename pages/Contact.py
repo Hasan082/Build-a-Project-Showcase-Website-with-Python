@@ -17,7 +17,7 @@ From: {user_email}
     button = st.form_submit_button("Send Message")
        
     if button:
-        if user_email and raw_message:  # Check that both fields are filled
+        if user_email and raw_message:
             send_email(message)
             st.info("We received your email! I will contact you as soon as possible.")
         else:
