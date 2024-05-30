@@ -28,7 +28,7 @@ with colo2:
     """
     st.info(content)
 
-colo3, colo4 = st.columns(2)
+colo3,empty_space, colo4 = st.columns([1.5,0.5,1.5])
 
 df = pd.read_csv("data.csv", sep=";")
 
