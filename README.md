@@ -69,4 +69,4 @@ Feel free to fork this repository, make improvements, and send a pull request. C
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE]([LICENSE](https://opensource.org/license/mit)) file for more details.
+This project is licensed under the MIT License. See the [LICENSE](https://opensource.org/license/mit) file for more details.
