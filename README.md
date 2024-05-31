@@ -10,7 +10,6 @@ Welcome to the Project Showcase Website! This repository contains the source cod
 
 ## Technology Stack
 
-- **Frontend**: HTML, CSS, JavaScript
 - **Backend**: Python, Streamlit
 - **Data Management**: Pandas
 - **Email Service**: smtplib
