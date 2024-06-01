@@ -35,7 +35,7 @@ colo3,empty_space, colo4 = st.columns([1.5,0.5,1.5])
 df = pd.read_csv("data.csv", sep=";")
 
 with colo3:
-    for index, row in df[:10].iterrows():
+    for index, row in df[:12].iterrows():
         st.subheader(row["title"])
         st.write(row["description"])
         st.image("images/" + row["image"])
@@ -43,7 +43,7 @@ with colo3:
 
 
 with colo4:
-    for index, row in df[10:].iterrows():
+    for index, row in df[12:].iterrows():
         st.subheader(row["title"])
         st.write(row["description"])
         st.image("images/" + row["image"])
