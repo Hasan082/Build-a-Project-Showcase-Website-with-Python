@@ -1,6 +1,7 @@
 title;description;url;image
 Todo App;A distraction-free web app to help you focus on creating and completing tasks using Python.;https://github.com/Hasan082/ToDo-App-Python-Django;1.png
 PDF Templates;A script that generates PDF templates of multiple pages given some predefined guidelines using Python;https://github.com/Hasan082/Generate-PDF-Documents-with-Python;3.png
+"Student Database Application;A powerful and efficient application for managing student data, built using Java.;https://github.com/Hasan082/Build-a-Student-Database-Application-Java;java_2.png"
 Positive News Site;A website that gets data from a news API and uses sentiment analysis to publish only positive news.;https://pythonhow.com;5.png
 Download Cleaner;A script that monitors the Downloads folder and deletes old files keeping the folder clean.;https://pythonhow.com;7.png
 Helper Chatbot;A chatbot that knows about a specific topic and answers questions regarding that topic.;https://pythonhow.com;9.png
