@@ -1,6 +1,6 @@
 title;description;url;image
-Todo App;A distraction-free web app to help you focus on creating and completing tasks.;https://github.com/Hasan082/ToDo-App-Python-Django;1.png
-PDF Templates;A script that generates PDF templates of multiple pages given some predefined guidelines.;https://github.com/Hasan082/Generate-PDF-Documents-with-Python;3.png
+Todo App;A distraction-free web app to help you focus on creating and completing tasks. Python;https://github.com/Hasan082/ToDo-App-Python-Django;1.png
+PDF Templates;A script that generates PDF templates of multiple pages given some predefined guidelines. Python;https://github.com/Hasan082/Generate-PDF-Documents-with-Python;3.png
 Positive News Site;A website that gets data from a news API and uses sentiment analysis to publish only positive news.;https://pythonhow.com;5.png
 Download Cleaner;A script that monitors the Downloads folder and deletes old files keeping the folder clean.;https://pythonhow.com;7.png
 Helper Chatbot;A chatbot that knows about a specific topic and answers questions regarding that topic.;https://pythonhow.com;9.png
@@ -9,8 +9,8 @@ Internet Speed Analysis;A program that records the internet speed every few seco
 Visualizing Data;A program that visualizes the data collected in the previous monitoring program. ;https://pythonhow.com;15.png
 Student Management System;A desktop PyQt6 GUI app for managing university student data with an SQL database backend.;https://pythonhow.com;17.png
 Restaurant Menu Web App;A Django web app to let customers see a restaurant menu and meal availability.;https://pythonhow.com;19.png
-Portfolio Website;A website built entirely in Python to showcase coding projects and apps.;https://github.com/Hasan082/Build-a-Project-Showcase-Website-with-Python;2.png
-PDF Invoices;A script that reads invoice records from Excel files and automatically generates PDF invoices.;https://github.com/Hasan082/Generate-PDF-Invoices-from-Excel-Documents;4.png
+Portfolio Website;A website built entirely in Python to showcase coding projects and apps.Python;https://github.com/Hasan082/Build-a-Project-Showcase-Website-with-Python;2.png
+PDF Invoices;A script that reads invoice records from Excel files and automatically generates PDF invoices. Python;https://github.com/Hasan082/Generate-PDF-Invoices-from-Excel-Documents;4.png
 Weather API;A REST API built with Python and Flask to serve historical weather data for various cities.;https://pythonhow.com;6.png
 Tour Scraper;A program that checks a music band's website and sends an email when there are new tours.;https://pythonhow.com;8.png
 Open Domain Chatbot;A chatbot built that can discuss anything with a human and is built using the Facebook API.;https://pythonhow.com;10.png
