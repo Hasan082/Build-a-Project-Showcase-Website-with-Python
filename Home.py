@@ -3,7 +3,7 @@ import pandas as pd
 
 st.set_page_config(
     layout="wide",
-    page_title="Md Hasanuzzaman", 
+    page_title="Md Hasanuzzaman",
     page_icon="images/hasan.png",
 )
 
@@ -33,7 +33,7 @@ with colo2:
     """
     st.info(content)
 
-colo3,empty_space, colo4 = st.columns([1.5, 0.5, 1.5])
+colo3, empty_space, colo4 = st.columns([1.5, 0.5, 1.5])
 
 df = pd.read_csv("data.csv", sep=";")
 

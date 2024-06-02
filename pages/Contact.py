@@ -1,6 +1,13 @@
 import streamlit as st
 from send_email import send_email
 
+st.set_page_config(
+    layout="wide",
+    page_title="Md Hasanuzzaman",
+    page_icon="images/hasan.png",
+)
+
+
 st.header("Contact Me")
 
 with st.form(key="email_forms"):
