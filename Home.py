@@ -30,12 +30,12 @@ with colo2:
     """
     st.info(content)
 
-colo3,empty_space, colo4 = st.columns([1.5,0.5,1.5])
+colo3,empty_space, colo4 = st.columns([1.5, 0.5, 1.5])
 
 df = pd.read_csv("data.csv", sep=";")
 
 with colo3:
-    for index, row in df[:11].iterrows():
+    for index, row in df[:12].iterrows():
         st.subheader(row["title"])
         st.write(row["description"])
         st.image("images/" + row["image"])
