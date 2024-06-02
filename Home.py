@@ -3,9 +3,10 @@ import pandas as pd
 
 st.set_page_config(
     layout="wide",
+    page_title="Md Hasanuzzaman", 
+    page_icon="images/hasan.png",
 )
-# Change favicon to a PNG file
-st.set_page_config(page_title="Md Hasanuzzaman", page_icon="images/hasan.png")
+
 
 st.header("I am Md Hasanuzzaman")
 st.subheader("Software Engineer")
