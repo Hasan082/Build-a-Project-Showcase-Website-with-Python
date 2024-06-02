@@ -3,7 +3,7 @@ import pandas as pd
 
 st.set_page_config(
     layout="wide",
-    page_title="Md Hasanuzzaman",
+    page_title="Md Hasanuzzaman - Home",
     page_icon="images/hasan.png",
 )
 

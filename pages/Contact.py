@@ -3,7 +3,7 @@ from send_email import send_email
 
 st.set_page_config(
     layout="wide",
-    page_title="Md Hasanuzzaman",
+    page_title="Md Hasanuzzaman - Contact",
     page_icon="images/hasan.png",
 )
 
