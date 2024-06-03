@@ -13,12 +13,12 @@ Student Management System;A desktop PyQt6 GUI app for managing university studen
 PDF Invoices;A script that reads invoice records from Excel files and automatically generates PDF invoices using Python;https://github.com/Hasan082/Generate-PDF-Invoices-from-Excel-Documents;4.png
 Car Rental Agency Software;A comprehensive software application for managing a car rental agency built using Java.;https://github.com/Hasan082/software-application-for-a-car-rental-agency-java;java_1.png
 Portfolio Website;A website built entirely in Python to showcase coding projects and apps using Python;https://github.com/Hasan082/Build-a-Project-Showcase-Website-with-Python;2.png
-Tour Scraper;A program that checks a music band's website and sends an email when there are new tours.;https://pythonhow.com;8.png
+Job Application Web App;A web application built with Flask for submitting job applications. Users can fill out a form with their personal details and submit it using python Flask.;https://github.com/Hasan082/Job-Application-Web-App-with-Python-Flask;flaskapp.png
+Online Store;A Django online store app where users can place orders and sellers can manage them.;https://pythonhow.com;20.png
 Open Domain Chatbot;A chatbot built that can discuss anything with a human and is built using the Facebook API.;https://pythonhow.com;10.png
 Typing Analyzer;A program that monitors the computer keyboard and returns the most typed words of the session.;https://pythonhow.com;12.png
 Monitoring Data;A program that monitors a particular website and periodically records the data to a remote server.;https://pythonhow.com;14.png
 Visualizing Weather Forecast;A data web app that visualizes the weather forecast for the next five days of any city.;https://pythonhow.com;16.png
 School Management System;A desktop PyQt6 GUI app for managing complex university data with an SQL database backend.;https://pythonhow.com;18.png
-Online Store;A Django online store app where users can place orders and sellers can manage them.;https://pythonhow.com;20.png
-Job Application Web App;A web application built with Flask for submitting job applications. Users can fill out a form with their personal details and submit it using python Flask.;https://github.com/Hasan082/Job-Application-Web-App-with-Python-Flask;flaskapp.png
 Weather API;A REST API built with Python and Flask to serve historical weather data for various cities.;https://pythonhow.com;6.png
+Tour Scraper;A program that checks a music band's website and sends an email when there are new tours.;https://pythonhow.com;8.png
